@@ -1,7 +1,7 @@
 {
   "name": "gi-skill-flipcoin",
   "description": "Flip coin skill for Good Intentions Assistant",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "license": "MIT",
   "author": {
     "name": "Darren Moore",
@@ -15,8 +15,5 @@
   "licenses": [],
   "dependencies": {
   },
-  "keywords": [],
-  "scripts": {
-    "install": "node ./scripts/install.js"
-  }
+  "keywords": []
 }
