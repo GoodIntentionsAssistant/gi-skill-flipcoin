@@ -15,5 +15,8 @@
   "licenses": [],
   "dependencies": {
   },
-  "keywords": []
+  "keywords": [],
+  "scripts": {
+    "install": "node ./scripts/install.js"
+  }
 }
