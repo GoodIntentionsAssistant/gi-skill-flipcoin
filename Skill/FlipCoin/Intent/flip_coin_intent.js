@@ -1,7 +1,7 @@
 /**
  * Flip Coin Intent
  */
-const Intent = require('../../../../src/Intent/intent');
+const Intent = girequire('src/Intent');
 const _ = require('underscore');
 const extend = require('extend');
 
