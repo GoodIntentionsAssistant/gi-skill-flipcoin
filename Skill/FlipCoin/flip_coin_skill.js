@@ -1,7 +1,7 @@
 /**
  * Flip Coin Skill
  */
-var Skill = girequire('src/Skill');
+var Skill = girequire('src/Skill/skill');
 
 module.exports = class FlipCoinSkill extends Skill {
 

@@ -1,7 +1,7 @@
 /**
  * Flip Coin Intent
  */
-const Intent = girequire('src/Intent');
+const Intent = girequire('src/Intent/intent');
 const _ = require('underscore');
 const extend = require('extend');
 
@@ -19,7 +19,7 @@ module.exports = class FlipCoinIntent extends Intent {
 
 		this.parameter('flips', {
       name: "Flips",
-      entity: 'App.Common.Entity.Number',
+      entity: 'App.Basics.Entity.Number',
       required: false,
       default: 1
     });
